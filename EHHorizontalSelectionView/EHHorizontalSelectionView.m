@@ -274,7 +274,9 @@
     {
         [cell setTextColor:_textColor];
     }
-    
+    if (_selectedColor) {
+        [cell setSelectedColor:_selectedColor];
+    }
     if (_font)
     {
         [cell setFont:_font];
