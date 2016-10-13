@@ -98,7 +98,7 @@ static float _EHHorizontalColorHeight = 4;
         self.selectedView.hidden = YES;
         [UIView animateWithDuration:!CGRectIsNull(rect) ? 0.3 : 0.0 animations:^{
             self.titleLabel.font = self.font ? self.font : [[self class] font];
-            self.titleLabel.alpha = .5;
+//            self.titleLabel.alpha = .5;
         } completion:^(BOOL finished) {
         }];
         

@@ -239,7 +239,7 @@
         self.selectedView.hidden = YES;
         [UIView animateWithDuration:!CGRectIsNull(rect) ? 0.3 : 0.0 animations:^{
             self.titleLabel.font = [[self class] font];
-//            self.titleLabel.alpha = .5;
+            self.titleLabel.alpha = .5;
         }];
         
     }
