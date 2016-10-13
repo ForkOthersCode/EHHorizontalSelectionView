@@ -26,7 +26,6 @@
  * @brief text color of cells. If not setted value will take from cell class method +textColor
  */
 @property (nonatomic, strong) UIColor * _Nullable textColor;
-
 /*!
  * @brief tint color of cells. If not setted value will take from cell class method +tintColor
  */

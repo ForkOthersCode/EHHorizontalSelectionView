@@ -87,7 +87,6 @@
     _textColor = textColor;
     self.titleLabel.textColor = textColor;
 }
-
 #pragma mark - class methods
 
 + (void)loadStyles
@@ -231,6 +230,7 @@
         [UIView animateWithDuration:!CGRectIsNull(rect) ? 0.3 : 0.0 animations:^{
             self.titleLabel.font = [[self class] fontMedium];
             self.titleLabel.alpha = 1.0;
+            self.titleLabel.textColor=self.selectedColor;
         }];
         
     }
@@ -240,6 +240,7 @@
         [UIView animateWithDuration:!CGRectIsNull(rect) ? 0.3 : 0.0 animations:^{
             self.titleLabel.font = [[self class] font];
             self.titleLabel.alpha = .5;
+            self.titleLabel.textColor=self.textColor;
         }];
         
     }

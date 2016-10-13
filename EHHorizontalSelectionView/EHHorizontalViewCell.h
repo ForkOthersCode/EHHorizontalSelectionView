@@ -41,6 +41,8 @@ static NSMutableDictionary * _Nullable _EHHorisontalSelectionStyles  = nil;
  * @brief text color of current cell. If not setted value will take from cell class method +textColor
  */
 @property (nonatomic, strong) UIColor * _Nullable textColor;
+/// 选中的颜色
+@property (nonatomic,strong)UIColor *_Nullable selectedColor;
 
 /*!
  * @brief tint color of current cell. If not setted value will take from cell class method +tintColor
