@@ -288,8 +288,8 @@
     }
     
     cell.selectedCell = NO;
-    if (_selectedIndexPath.row == indexPath.row)
-    {
+//    if (_selectedIndexPath.row == indexPath.row)
+    if ([_selectedIndexPath compare:indexPath]==NSOrderedSame){
         _lastCellRect = cell.frame;
         cell.selectedCell = YES;
         _selectedCell = cell;
