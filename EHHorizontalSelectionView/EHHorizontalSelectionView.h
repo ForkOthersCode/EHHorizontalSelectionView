@@ -20,6 +20,8 @@
  *
  */
 @property (nonatomic, weak) id<EHHorizontalSelectionViewProtocol> _Nullable delegate;
+//** 额外设置collectionview */
+@property (nonatomic, strong) UICollectionView * _Nonnull  collectionView;
 
 
 /*!
